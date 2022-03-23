@@ -7,8 +7,11 @@ body {
 }
 
 .navbarlinks {
-    color: white;
+    color: black;
+    display: flex;
+    gap: 1rem;
 }
+
 .navbar {
     background-color:#6E6E6E;
     display: flex;
@@ -19,14 +22,24 @@ body {
 .container {
     display: flex;
     background-color: #D0D0D0;
+    gap: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container h2 {
+    margin: 12%
 }
 
 .menus {
     background-color: #F1EFEF ;
+    
 }
 
 .menus h1 {
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .footer {
@@ -34,3 +47,25 @@ body {
     position: fixed;
     left: 0; right: 0; bottom: 0;
 }
+ul {
+    list-style-type: none;
+}
+
+.menus li {
+    border: 1px solid black;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+ .menus ul {
+     display: flex;
+     justify-content: center;
+     gap: 1rem;
+ }
+
+ a {
+     text-decoration: none;
+     color: white;
+ }
