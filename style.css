@@ -35,6 +35,10 @@ body {
 
 .container h2 {
   margin: 12%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
 }
 
 .menus {
@@ -152,15 +156,29 @@ h4 {
   border-bottom: 4px #f57c1d solid;
 }
 
+.contactinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: darkgrey;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.images {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+}
+
 .footer {
   background-color: #4d4d4d;
   color: #f1efef;
   display: flex;
   justify-content: center;
-  gap: 1000px;
-}
-.images {
-  background-color: gray;
-  display: flex;
-  justify-content: center;
+  padding: 8px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
