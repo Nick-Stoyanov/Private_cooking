@@ -7,7 +7,6 @@ body {
 }
 
 .navbarlinks {
-  color: black;
   display: flex;
   gap: 1rem;
   padding-right: 8px;
@@ -20,6 +19,11 @@ body {
   padding: 8px;
 }
 
+.navbarlinks a {
+  text-decoration: none;
+  color: white;
+}
+
 .navbarlinks a:hover {
   color: #f57c1d;
   font-weight: 700;
@@ -28,17 +32,15 @@ body {
 .container {
   display: flex;
   background-color: #d0d0d0;
-  gap: 8px;
-  justify-content: space-between;
   align-items: center;
 }
 
 .container h2 {
-  margin: 12%;
+  margin: 10%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .menus {
@@ -94,11 +96,6 @@ ul {
   text-shadow: 1.5px 1.5px black;
 }
 
-.navbarlinks a {
-  text-decoration: none;
-  color: white;
-}
-
 .containerli1 {
   background-image: url(images/Pasta.jpg);
   background-size: cover;
@@ -151,7 +148,8 @@ h4 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  padding: 24px;
+  padding-top: 48px;
+  padding-bottom: 48px;
   background-color: #d0d0d0;
   border-bottom: 4px #f57c1d solid;
 }
@@ -167,7 +165,7 @@ h4 {
   font-weight: 600;
 }
 
-.images {
+.endimage {
   background-color: gray;
   display: flex;
   justify-content: center;
