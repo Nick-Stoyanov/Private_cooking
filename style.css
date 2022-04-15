@@ -59,6 +59,10 @@ body {
   font-weight: 600;
 }
 
+.menus ul {
+  padding-bottom: 122px;
+}
+
 ul {
   list-style-type: none;
   display: flex;
